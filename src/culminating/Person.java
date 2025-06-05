@@ -33,6 +33,6 @@ public class Person {
     }
     
     public void draw(){
-        app.load(image, x, y);
+        app.image(image, x, y);
     }
 }

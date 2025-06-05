@@ -15,9 +15,11 @@ public class Sketch extends PApplet {
     
     public void settings() {
         size (800, 800);
+        person = new Person(this, 200, 200, "Sun Wukong", 0, "images/wukongsprite.png");
     }
     
     public void setup() {
         background(255,255,255);
+        person.draw();
     }
 }
